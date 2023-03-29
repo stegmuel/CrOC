@@ -7,6 +7,13 @@ This repo contains the Pytorch implementation of our CVPR 2023 paper:
 
 ![alt text](figures/croc_pipeline_small.jpg)
 
+## Dependencies
+Our code only has a few dependencies. First, install PyTorch for your machine following [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/).
+Then, install other needed dependencies:
+```bash
+pip install einops
+```
+
 ## Pretraining
 ### Single GPU pretraining
 Run the [main_croc.py](main_croc.py) file. Command line args are defined in [parser.py](croc_utils/parser.py).
