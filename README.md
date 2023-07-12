@@ -34,13 +34,12 @@ python -m torch.distributed.launch --nproc_per_node=8 main_croc.py --args1 val1
 If you find our work useful, please consider citing:
 
 ```
-@misc{stegmüller2023croc,
-      title={CrOC: Cross-View Online Clustering for Dense Visual Representation Learning}, 
-      author={Thomas Stegmüller and Tim Lebailly and Behzad Bozorgtabar and Tinne Tuytelaars and Jean-Philippe Thiran},
-      year={2023},
-      eprint={2303.13245},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{stegmuller2023croc,
+  title={CrOC: Cross-view online clustering for dense visual representation learning},
+  author={Stegm{\"u}ller, Thomas and Lebailly, Tim and Bozorgtabar, Behzad and Tuytelaars, Tinne and Thiran, Jean-Philippe},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7000--7009},
+  year={2023}
 }
 ```
 
